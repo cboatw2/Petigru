@@ -1,0 +1,211 @@
+================================================================================
+NAMED ENTITY RECOGNITION REPORT
+Letters from: Life, Letters, and Speeches of James Louis Petigru
+================================================================================
+
+
+MOST FREQUENT PERSONS
+--------------------------------------------------------------------------------
+Petigru                                             175 mentions
+James  Louis  Petigru                               151 mentions
+Jane                                                 58 mentions
+Hamilton                                             53 mentions
+Caroline                                             50 mentions
+Sue                                                  50 mentions
+Johnston                                             40 mentions
+Calhoun                                              39 mentions
+James                                                36 mentions
+Adieu                                                34 mentions
+Badwell                                              33 mentions
+Ma                                                   30 mentions
+Tom                                                  28 mentions
+jane  petigru  north                                 22 mentions
+Rhett                                                21 mentions
+Carson                                               17 mentions
+Webster                                              16 mentions
+Elliott                                              16 mentions
+Grayson                                              15 mentions
+Carey                                                15 mentions
+Henry                                                15 mentions
+Charles                                              14 mentions
+Augusta                                              14 mentions
+Pinckney                                             14 mentions
+J.  L.  Petigru                                      13 mentions
+Holmes                                               13 mentions
+Davis                                                12 mentions
+Jack                                                 12 mentions
+Porcher                                              12 mentions
+Louise                                               12 mentions
+Savannah                                             12 mentions
+Lee                                                  11 mentions
+Ben                                                  11 mentions
+Michael                                              11 mentions
+Preston                                              10 mentions
+Richardson                                           10 mentions
+Harper                                                9 mentions
+Poinsett                                              9 mentions
+Phil                                                  9 mentions
+Bill                                                  9 mentions
+Sherman                                               9 mentions
+Summerville                                           9 mentions
+Hammond                                               8 mentions
+McDuffie                                              8 mentions
+Taylor                                                8 mentions
+S.  C                                                 8 mentions
+Russell                                               8 mentions
+Adele                                                 8 mentions
+Huger                                                 8 mentions
+Jackson                                               8 mentions
+
+
+MOST FREQUENT LOCATIONS (Cities/States/Countries)
+--------------------------------------------------------------------------------
+Charleston                                          142 mentions
+South  Carolina                                      76 mentions
+United  States                                       47 mentions
+Washington                                           46 mentions
+Georgia                                              41 mentions
+New  York                                            39 mentions
+Virginia                                             35 mentions
+Beaufort                                             33 mentions
+America                                              29 mentions
+Philadelphia                                         20 mentions
+Drayton                                              18 mentions
+Fort                                                 17 mentions
+States                                               16 mentions
+Allston                                              14 mentions
+North  Carolina                                      12 mentions
+Abbeville                                            12 mentions
+Richmond                                             12 mentions
+Georgetown                                           11 mentions
+Johnston                                             10 mentions
+Parent                                               10 mentions
+South
+Carolina                                        9 mentions
+France                                                9 mentions
+Savannah                                              9 mentions
+Alabama                                               9 mentions
+Mississippi                                           9 mentions
+England                                               9 mentions
+Carolina                                              8 mentions
+South  Carolina  College                              7 mentions
+Magrath                                               7 mentions
+Wardlaw                                               7 mentions
+Ripley                                                7 mentions
+Kohne                                                 6 mentions
+sont                                                  6 mentions
+St.  Michael's                                        6 mentions
+Athens                                                5 mentions
+St.                                                   5 mentions
+Ohio                                                  5 mentions
+Tennessee                                             5 mentions
+St.  Thomas                                           5 mentions
+Singleton                                             5 mentions
+Greenville                                            5 mentions
+Texas                                                 5 mentions
+United
+States                                         4 mentions
+New
+York                                              4 mentions
+Willington                                            4 mentions
+West  Point                                           4 mentions
+Pendleton                                             4 mentions
+Paris                                                 4 mentions
+United  States                                        4 mentions
+Columbus                                              4 mentions
+
+
+OTHER LOCATIONS
+--------------------------------------------------------------------------------
+South                                                24 mentions
+North                                                13 mentions
+Potomac                                               6 mentions
+Europe                                                4 mentions
+Island                                                3 mentions
+Mount                                                 2 mentions
+River                                                 2 mentions
+West                                                  2 mentions
+South                                                 1 mentions
+Sea                                                   1 mentions
+Africa                                                1 mentions
+Paradise                                              1 mentions
+Mediterranean                                         1 mentions
+Schley                                                1 mentions
+Isle                                                  1 mentions
+Dearest                                               1 mentions
+Chesa-                                                1 mentions
+Bay                                                   1 mentions
+North  Pole                                           1 mentions
+Atlantic                                              1 mentions
+Mt.  Vernon                                           1 mentions
+Carolina                                              1 mentions
+Northern  States                                      1 mentions
+Southwest                                             1 mentions
+North
+River                                           1 mentions
+Gulf                                                  1 mentions
+
+
+MOST FREQUENT ORGANIZATIONS
+--------------------------------------------------------------------------------
+State                                               176 mentions
+Columbia                                             68 mentions
+House                                                43 mentions
+Congress                                             41 mentions
+Senate                                               36 mentions
+Nullifiers                                           36 mentions
+Lincoln                                              26 mentions
+Court                                                26 mentions
+Legislature                                          22 mentions
+Hayne                                                21 mentions
+Petigru                                              18 mentions
+Yankees                                              18 mentions
+Alley                                                16 mentions
+Mercury                                              15 mentions
+Legare                                               14 mentions
+NuUifiers                                            14 mentions
+Huger                                                13 mentions
+Barnwell                                             12 mentions
+Ravenel                                              12 mentions
+Confederate                                          11 mentions
+Clay                                                 11 mentions
+Summerville                                          11 mentions
+the  Union                                           10 mentions
+Nullification                                         9 mentions
+Lesesne                                               8 mentions
+Supreme  Court                                        8 mentions
+Bank                                                  8 mentions
+Lunnon                                                7 mentions
+un                                                    7 mentions
+Martin                                                7 mentions
+DeSaussure                                            7 mentions
+Scott                                                 7 mentions
+Circus                                                7 mentions
+Badwell                                               6 mentions
+Lije^  Letters                                        6 mentions
+the
+Union                                             5 mentions
+Hotel                                                 5 mentions
+Parliament                                            5 mentions
+Yeadon                                                5 mentions
+Treasury                                              5 mentions
+Post  Office                                          5 mentions
+Cabell                                                5 mentions
+caroline  petigru  carson                             5 mentions
+Hampton                                               4 mentions
+Mason                                                 4 mentions
+Rutledge                                              4 mentions
+Chapel  Hill                                          4 mentions
+Cooper                                                4 mentions
+Society                                               4 mentions
+Tyler                                                 4 mentions
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+Total unique persons: 1006
+Total unique locations (GPE): 256
+Total unique locations (other): 26
+Total unique organizations: 544
+Total letters analyzed: 185

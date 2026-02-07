@@ -1,0 +1,29 @@
+================================================================================
+PETIGRU LETTERS - STATISTICAL SUMMARY
+================================================================================
+
+ENTITY COUNTS
+----------------------------------------
+Unique Persons: 1006
+Unique Locations (Cities/States/Countries): 256
+Unique Locations (Other): 26
+Unique Organizations: 544
+Total Unique Entities: 1832
+
+TOTAL MENTIONS
+----------------------------------------
+Person Mentions: 2655
+Location Mentions (GPE): 1108
+Location Mentions (Other): 74
+Organization Mentions: 1449
+Total Entity Mentions: 5286
+
+AVERAGE MENTIONS PER UNIQUE ENTITY
+----------------------------------------
+Persons: 2.64
+Locations (GPE): 4.33
+Locations (Other): 2.85
+Organizations: 2.66
+
+Total Letters Analyzed: 185
+Average Entities per Letter: 28.57
