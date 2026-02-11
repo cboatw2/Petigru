@@ -5,7 +5,7 @@ LETTER #17
 TO: WILLIAM   ELLIOTT
 LOCATION: SuUivans  Island
 DATE: August  7,  1832.
-SOURCE: Lines 5158-5239 of LifeLettersAndSpeeches.txt
+SOURCE: Lines 5158-5238 of LifeLettersAndSpeeches.txt
 
 --------------------------------------------------------------------------------
 
@@ -56,10 +56,6 @@ must  keep  your  word.  I  see  no  use,  but  on  the  contrary,  great
 inconvenience  in  your  resigning.  If  your  friends  were  willing
 to  release  you,  that  would  be  another  thing,  but,  I  suppose,  as
 they  are  admitted  again  to  the  fold,  they  would  do  nothing  of
-
-
-90  -^(Z^)  Letters  and  Speeches
-
 that  kind.  Encourage  the  ''tristes  reliquiae  belli,''  the  faithful
 Unionists  of  Beaufort;  we  are  strong  enough  to  save  the  country
 if  we  have  patience.  Will  you  not  call  a  meeting  to  send  dele-
@@ -88,4 +84,3 @@ bers unite  in  gangs  .^     I  think  not.
 
 Yours  faithfully,
 
-Yours  faithfully,

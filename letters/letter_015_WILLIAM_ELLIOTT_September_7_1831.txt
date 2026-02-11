@@ -5,7 +5,7 @@ LETTER #15
 TO: WILLIAM    ELLIOTT
 LOCATION: Charleston
 DATE: September  7,  1831.
-SOURCE: Lines 4946-4977 of LifeLettersAndSpeeches.txt
+SOURCE: Lines 4946-4976 of LifeLettersAndSpeeches.txt
 
 --------------------------------------------------------------------------------
 
@@ -35,7 +35,5 @@ least  fifty  votes  to  them.  I  am  expecting  every  moment  to  be
 called  to  assist  in  the  ceremony  of  swearing  in  the  new  intendant,
 and  must  conclude  and  wishing  you  better  news  from  everybody
 than  from  me.
-
-Yours  truly,
 
 Yours  truly,

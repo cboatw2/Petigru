@@ -2,10 +2,10 @@
 LETTER #28
 ================================================================================
 
-TO: WILLIAM    ELLIOTT
+TO: WILLIAM ELLIOTT
 LOCATION: Charleston
-DATE: 15  April,  1833.
-SOURCE: Lines 6969-6994 of LifeLettersAndSpeeches.txt
+DATE: April 15,  1833.
+SOURCE: Lines 6969-6990 of LifeLettersAndSpeeches.txt
 
 --------------------------------------------------------------------------------
 
@@ -28,6 +28,3 @@ as  they  are  thrown  upon  the  resources  of  the  doughty  islanders
 and  the  warlike  pinewoodsmen.  We  who  have  got  the  chivalry
 against  us  must  carefully  cultivate  the  good  will  of  our  neighbors.
 Adieu.
-
-
-James  Louis  Petigru  123
