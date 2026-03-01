@@ -1,0 +1,32 @@
+{
+  "id": "http://www.loc.gov/resource/sn83026172/1847-04-29/ed-1/?sp=3",
+  "title": "Image 3 of Daily national intelligencer (Washington City [D.C.]), April 29, 1847",
+  "date": "1847-04-29",
+  "description": [
+    "WASHINGTON Liberty and Union now and forever one and inseparable THURSDAY APRIL 29 1847 Mn DALLASS LETTER Our readers will we hope perfectly understand hat in transferring to our columns from the Unionin which paper it first attracted our at entionthe Letter of Mr Dallas on the Isthmus question we do not adopt any part or particle of the Hon Vice Presidents apparent predilection for War either in the abstract or in the actual as it now exists between this country and the neighbor ing Republic We dissent from his opinion par ticularly as to the value of military glory con sidering the passion for it as one of the most fatal political diseases with which a Government or Peopleand especially a Republican Government and Peoplecan be infected Nor must we by our silence on the point subject ourselves to the I imputation of tacitly assenting that the vindication I of the National honor required this war or that the tenderest regard for that honor can or could have suggested to any wellorganized mind a neces sity for the war Nor do we conceive the acquisition of present power either for party purposes at home or for the purposes of"
+  ],
+  "url": "https://www.loc.gov/resource/sn83026172/1847-04-29/ed-1/?sp=3&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_custer_ver01:data:sn83026172:00211678069:1847042901:0709/full/pct:3.125/0/default.jpg#h=258&w=197",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_custer_ver01:data:sn83026172:00211678069:1847042901:0709/full/pct:6.25/0/default.jpg#h=516&w=394",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_custer_ver01:data:sn83026172:00211678069:1847042901:0709/full/pct:12.5/0/default.jpg#h=1032&w=788",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_custer_ver01/data/sn83026172/00211678069/1847042901/0709.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "washington",
+    "newspapers",
+    "united states",
+    "district of columbia",
+    "washington (d.c.)"
+  ],
+  "location": [
+    "washington d.c.",
+    "district of columbia",
+    "united states",
+    "washington"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788742"
+}

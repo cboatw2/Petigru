@@ -1,0 +1,32 @@
+{
+  "id": "http://www.loc.gov/resource/sn83026172/1850-11-15/ed-1/?sp=3",
+  "title": "Image 3 of Daily national intelligencer (Washington City [D.C.]), November 15, 1850",
+  "date": "1850-11-15",
+  "description": [
+    "NATIONAL INTELLIGENCER FROM OUR PARIS CORRESPONDENT Paris October 25 1850 The French press has been almost exclusively occupied with strange rumors of wars reaching us from England Tie information obtained through the British press is generally believed here to be ex aggerated but enough is presumed to be true to af ford reasonable apprehension of alarm for the peace of Europe I allude to the proposition said to have been made by the Governments of France and Russia to that of England for an armed interference to oppose Prussian influence in the war now waging between Denmark and the Duchies of Schleswig and Holstein Prussia was to be summoned by a joint note of the three Powers to discontinue the secret support which she has not ceased to extend to the Duchies in despite of her formal engagement to maintain a strict neutrality In case of noncom pliance on the part of Prussia Russian troops were to invade Prussian Silesia and France was to oc cupv the possessions of Prussia on the Rhine England 1 aid not to have acceded to this propo sition and to have advised a separate remonstrance of each of the three Powers against the faithless"
+  ],
+  "url": "https://www.loc.gov/resource/sn83026172/1850-11-15/ed-1/?sp=3&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_custer_ver01:data:sn83026172:00211678136:1850111501:0357/full/pct:3.125/0/default.jpg#h=261&w=198",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_custer_ver01:data:sn83026172:00211678136:1850111501:0357/full/pct:6.25/0/default.jpg#h=523&w=396",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_custer_ver01:data:sn83026172:00211678136:1850111501:0357/full/pct:12.5/0/default.jpg#h=1047&w=792",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_custer_ver01/data/sn83026172/00211678136/1850111501/0357.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "washington",
+    "newspapers",
+    "united states",
+    "district of columbia",
+    "washington (d.c.)"
+  ],
+  "location": [
+    "washington d.c.",
+    "district of columbia",
+    "united states",
+    "washington"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788744"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "http://www.loc.gov/resource/sn84022931/1847-06-04/ed-1/?sp=1",
+  "title": "Image 1 of New-Hampshire statesman and state journal (Concord [N.H.]), June 4, 1847",
+  "date": "1847-06-04",
+  "description": [
+    "NEWHAMPSHIRE STATESMAN AXND STATE JOURNAL VOL XXVI THE STATESMAN JOURNAL BY GEORGE 0 ODLIN CO Is published every Fripay Morwive 122 MAIN Slz CONCORD N H at ONE DOLLAR AND FIFTYX CENTS when paid in advance or TWO DOLLARS at the end of the year TERMS OF ADVERTISING For advertisements less than 6 lines 75 cents for three inser tions for 12 lines three insertions SIOO and 17 cents for each subsequent insertion for any time less than three monthsover that time IOOO per annum for 12 lines and for every additional 12 lines 500 per annum A liberal discount made to yearly advertisers All advertise ments in order to insure publication must be left at the office as early as Wednesday afternoon s 7 No paper discontinued until all arrearages are paid except at the option of the publishers T 3 7 MISCELLANY i e ib L A A S AT From the Parlor Annual An Affecting Tale of Truth BY MRS LYDIA M CHILD In a city which shall be nameless there lived long ago a young girl the only daughter of a widow She came from the country and was as ignorant of the dangers of a"
+  ],
+  "url": "https://www.loc.gov/resource/sn84022931/1847-06-04/ed-1/?sp=1&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:nhd:batch_nhd_isolation_ver01:data:sn84022931:00542868466:1847060401:0089/full/pct:3.125/0/default.jpg#h=281&w=208",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:nhd:batch_nhd_isolation_ver01:data:sn84022931:00542868466:1847060401:0089/full/pct:6.25/0/default.jpg#h=563&w=416",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:nhd:batch_nhd_isolation_ver01:data:sn84022931:00542868466:1847060401:0089/full/pct:12.5/0/default.jpg#h=1127&w=833",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/nhd/batch_nhd_isolation_ver01/data/sn84022931/00542868466/1847060401/0089.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "concord (n.h.)",
+    "https://id.oclc.org/worldcat/entity/e39pbjbwxkgvdcpp3dpj3yh3cp",
+    "merrimack",
+    "new hampshire",
+    "merrimack county",
+    "concord",
+    "merrimack county (n.h.)",
+    "newspapers",
+    "https://id.oclc.org/worldcat/entity/e39qbtfrmvphgf6m6wcd8vhrcp",
+    "united states"
+  ],
+  "location": [
+    "merrimack",
+    "new hampshire",
+    "merrimack county",
+    "concord",
+    "united states"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788717"
+}

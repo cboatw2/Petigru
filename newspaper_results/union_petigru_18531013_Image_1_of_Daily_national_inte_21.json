@@ -1,0 +1,32 @@
+{
+  "id": "http://www.loc.gov/resource/sn83026172/1853-10-13/ed-1/?sp=1",
+  "title": "Image 1 of Daily national intelligencer (Washington City [D.C.]), October 13, 1853",
+  "date": "1853-10-13",
+  "description": [
+    "vol XLI ailg Rational Jntelli CTLCC WASHINGTON THURSDAY OCTOBER 13 1853 NO 12679 PUBLISHED BY GALES SEATON TERMS DMLr Paper 10 A YEARCountry Paper 6 A year Payable in advauce NBW YORK ADVERTISEMENTS From William H McDonald Advertising Hoose 109 Nassau street New York LAWRENCES Worlds Fair Premium Daguerrean Gallery 381 Broadwaycorner of White st NY 086m been WEST POINT SCHOOLArrangements have made with Professors from the United States Military Academy for instruction in their several departments from the first of November next Every opportunity will be offer ed for obtaining a thorough education Prompt attendance is requested oct 43m EDWARD V KINSLEY A M A GRICULTURAL IMPLEMENTS and SEEDS RALPH A CO 23 Fulton street New York Whole sale and retail oct 4tf Fowler wells Phrenologists and Publish era Clinton Hall No 131 Nassau street New York oct 13m OLD AND SILVER SPECTACLES AND EYE Glasses of every description manufactured by D GLLMUR No ti Liberty Place between Maiden Lane and Liberty streets New York D G guarantees all articles made by him to be of a supe rior quality Orders respectfully solicited sep 223m I BILLIARD TABLESThe subscribers having de l voted their personal attention for many years"
+  ],
+  "url": "https://www.loc.gov/resource/sn83026172/1853-10-13/ed-1/?sp=1&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_doubleday_ver01:data:sn83026172:00211678197:1853101301:0239/full/pct:3.125/0/default.jpg#h=261&w=199",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_doubleday_ver01:data:sn83026172:00211678197:1853101301:0239/full/pct:6.25/0/default.jpg#h=523&w=399",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_doubleday_ver01:data:sn83026172:00211678197:1853101301:0239/full/pct:12.5/0/default.jpg#h=1046&w=799",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_doubleday_ver01/data/sn83026172/00211678197/1853101301/0239.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "washington",
+    "newspapers",
+    "united states",
+    "district of columbia",
+    "washington (d.c.)"
+  ],
+  "location": [
+    "washington d.c.",
+    "district of columbia",
+    "united states",
+    "washington"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788736"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "http://www.loc.gov/resource/sn83026172/1839-07-23/ed-1/?sp=1",
+  "title": "Image 1 of Daily national intelligencer (Washington City [D.C.]), July 23, 1839",
+  "date": "1839-07-23",
+  "description": [
+    "Vol XXVII PUBLISHED BY GALES SEATON PRICE For a year ten dollarsfor six months six dollars payable in advance Those subscribing for a year who do not either at the time of ordering the paper or subsequently give notice of their wish to have the paper discontinued at the expiration of their year will be presumed as desiring its continuance until counter manded and it will be continued accordingly at the option of the Editors Commencement and distribution OF PREMIUMS AT MOUNT ST MARYS COLLEGE June 27th 1839 The degree of Ba chelor of Arts was conferred on John B Byrne of La Salle Il linois Charles S Spence of Baltimore and John Joseph Mitch ell of Pittsburg Pa The degree of Master of Arts was confer red on Win H Muller of Zelinople Pa Henry W Arey of Philadelphia Robert Snyder of Pittsburg Charles Malloy M D of Baltimore Carroll Spence of Baltimore and Outerbridge Horsey of Needwood Frederick county Maryland DEPARTMENT OF PHILOSOPHY AND CLASSICAL LANGUAGES Class of Moral and Intellectual Philosophy and Logic Premium John B Byrne La Salle Illinois accessit Charles Spence of Baltimore Ist class of Chemistry and Natural Philosophy Prem ex ajquo Charles S"
+  ],
+  "url": "https://www.loc.gov/resource/sn83026172/1839-07-23/ed-1/?sp=1&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_animal_ver02:data:sn83026172:print:1839072301:0001/full/pct:6.25/0/default.jpg#h=394&w=348",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_animal_ver02:data:sn83026172:print:1839072301:0001/full/pct:12.5/0/default.jpg#h=788&w=697",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_animal_ver02/data/sn83026172/print/1839072301/0001.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "washington",
+    "newspapers",
+    "united states",
+    "district of columbia",
+    "washington (d.c.)"
+  ],
+  "location": [
+    "washington d.c.",
+    "district of columbia",
+    "united states",
+    "washington"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788764"
+}

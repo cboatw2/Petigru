@@ -1,0 +1,32 @@
+{
+  "id": "http://www.loc.gov/resource/sn83026172/1863-03-23/ed-1/?sp=2",
+  "title": "Image 2 of Daily national intelligencer (Washington City [D.C.]), March 23, 1863",
+  "date": "1863-03-23",
+  "description": [
+    "INTELLIGENCER FROM PORT ROYAL We have intelligence from Port Royal to the 16th inst No change of importance is reported in military or naval affairs It is said that large reinforcements supposed to be Burnsides army corps were expected at Hilton Head The story heretofore received of the capture of the ne gro expedition which was lately sent to Florida under the command of Col Higginson and Col Montgomery is un true The expedition after completing all necessary pre parations for the inland march at Fernandina moved up St Johns liver and on the 10th instant occupied the town of Jacksonville without meeting any resistance There was a small body of rebel troops in town at the time of the appearance of the black troops but they aban doned it hastily and retreated towards the interior The Port Royal New South of the 14th instant contains the following paragraph on the subject By the arrival of the transport Boston this morning we learn that tlie city of Jacksonville was taken by the First South Carolina Volunteers under Col Higgiuson on the 10th instant The people were in great fear as the black troops marched up the streets of an indiscrimi"
+  ],
+  "url": "https://www.loc.gov/resource/sn83026172/1863-03-23/ed-1/?sp=2&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_anderson_ver01:data:sn83026172:00211678379:1863032301:0624/full/pct:3.125/0/default.jpg#h=260&w=193",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_anderson_ver01:data:sn83026172:00211678379:1863032301:0624/full/pct:6.25/0/default.jpg#h=521&w=387",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_anderson_ver01:data:sn83026172:00211678379:1863032301:0624/full/pct:12.5/0/default.jpg#h=1043&w=775",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_anderson_ver01/data/sn83026172/00211678379/1863032301/0624.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "washington",
+    "newspapers",
+    "united states",
+    "district of columbia",
+    "washington (d.c.)"
+  ],
+  "location": [
+    "washington d.c.",
+    "district of columbia",
+    "united states",
+    "washington"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788760"
+}

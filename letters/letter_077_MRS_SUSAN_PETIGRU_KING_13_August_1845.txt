@@ -2,9 +2,9 @@
 LETTER #77
 ================================================================================
 
-TO: MRS.   SUSAN   PETIGRU   KING
-LOCATION: White  Sulphur
-DATE: 13  August,  1845.
+TO: MRS. SUSAN PETIGRU KING
+LOCATION: White Sulphur
+DATE: August 13, 1845.
 SOURCE: Lines 13419-13470 of LifeLettersAndSpeeches.txt
 
 --------------------------------------------------------------------------------
@@ -55,5 +55,3 @@ I  tell  you  that  she  has  been  sick  here,  and  looks  very  poorly  still
 
 Your  affectionate  Father.
 
-
-James  Louis  Petigru  245

@@ -2,9 +2,9 @@
 LETTER #111
 ================================================================================
 
-TO: MRS.  MARY  ANNE   PETIGRU
-LOCATION: Goodwood
-DATE: Florida,  March  11,  1857.
+TO: MRS. MARY ANNE PETIGRU
+LOCATION: Goodwood, Florida
+DATE: March  11,  1857.
 SOURCE: Lines 17401-17431 of LifeLettersAndSpeeches.txt
 
 --------------------------------------------------------------------------------
@@ -26,10 +26,6 @@ be  a  duty  never  to  be  forgotten  by  me.  The  requirements  of
 my  connection  with  the  Court  now  sitting  at  this  place,  will
 detain  me  at  least  two  days  more  and  no  other  cause  would  keep
 me  from  waiting  on  you  in  person  to  assume  every  care  and
-
-
-James  Louis  Petigru  323
-
 trouble  that  you  would  allow  me  to  undertake  for  you  and  assure
 you  of  the  depth  of  my  sympathy  in  all  your  griefs.  And  I  beg
 you  to  believe  that  in  this  mind  I  shall  ever  be,  my  dear  Anne,

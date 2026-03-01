@@ -1,0 +1,31 @@
+{
+  "id": "http://www.loc.gov/resource/sn83026172/1832-06-22/ed-1/?sp=2",
+  "title": "Image 2 of Daily national intelligencer (Washington City [D.C.]), June 22, 1832",
+  "date": "1832-06-22",
+  "description": [
+    "CHARLESTON UNION MEETING Charleston S C June 14 Agreeably to public notice a very large num ber of the UNION AND STATE RIGHTS PARTY assembed at Seyles on Tuesday eve ning The Hon Henry Middleton was called to the chair On assuming the officeMr Middle ton delivered the following address Gentlemen The unexpectedness of the call which has procured for me the honor of presiding in so numerous and respectable a meeting of my fellowcitizens as is here assembled and the circumstances that most of those who hear me are familiar with the history of the causes which have produced and kept up a degree of political excite ment unexampled in our State wilt prevent the possibil ity and the necessity of my entering into any details on the present occasion I shall therefore only ask your indulgent attention for a few moments After a successful progress of more than forty years under a system of Jaws where power is wisely distributed in due proportion between our National and State au thorities we see in our State the elements of strife at length gaining the ascendancy over those of order and about to destroy the equipoise hitherto maintainedthreat ening to"
+  ],
+  "url": "https://www.loc.gov/resource/sn83026172/1832-06-22/ed-1/?sp=2&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_doctorteeth_ver01:data:sn83026172:print:1832062201:0002/full/pct:6.25/0/default.jpg#h=405&w=353",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:dlc:batch_dlc_doctorteeth_ver01:data:sn83026172:print:1832062201:0002/full/pct:12.5/0/default.jpg#h=811&w=707",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/dlc/batch_dlc_doctorteeth_ver01/data/sn83026172/print/1832062201/0002.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "washington",
+    "newspapers",
+    "united states",
+    "district of columbia",
+    "washington (d.c.)"
+  ],
+  "location": [
+    "washington d.c.",
+    "district of columbia",
+    "united states",
+    "washington"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788728"
+}

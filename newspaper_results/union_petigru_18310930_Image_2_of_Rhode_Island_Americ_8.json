@@ -1,0 +1,34 @@
+{
+  "id": "http://www.loc.gov/resource/sn83021403/1831-09-30/ed-1/?sp=2",
+  "title": "Image 2 of Rhode Island American and gazette (Providence, R.I.), September 30, 1831",
+  "date": "1831-09-30",
+  "description": [
+    "4 W DOCTOR ABERNETHY That the late Mr Abernethy was man of splendid tatouU end areat Feature in the medical wgrld there needs no ghost from the grave to prose but neyertheless doubts have been expressed whether his eccentricitv ot manners rudeness of behavior ami the difficul ty sf approacn to his person a forlorn hope upon several occasions without being affronted did not do more for him with the public in gen eral than the whole of his studies snd acquire urbntsput together He was not the sugar and water physician who would mile in your facelaugh at your credulityand pick your pocket by friendly prescriptions calculated neilherto produce mischief nor pood Neither did the late doctor wish to impose on the minds of his patients by the fl uirish of u diamond ring the display of luce rufflesthe dress coal the pompous gaitthe significant nod in fact he did nM dress for the charocterat all and dancing attendance on the great was entirely cut of his knowledge of the practice In reali ty the late doctor was what the world called a rude but highlygifted man To encounter him at times was anything but pleasing the timid female"
+  ],
+  "url": "https://www.loc.gov/resource/sn83021403/1831-09-30/ed-1/?sp=2&q=union+and+petigru",
+  "image_url": [
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:rp:batch_rp_gorgon_ver01:data:sn83021403:00513689159:1831093001:0313/full/pct:3.125/0/default.jpg#h=268&w=193",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:rp:batch_rp_gorgon_ver01:data:sn83021403:00513689159:1831093001:0313/full/pct:6.25/0/default.jpg#h=537&w=387",
+    "https://tile.loc.gov/image-services/iiif/service:ndnp:rp:batch_rp_gorgon_ver01:data:sn83021403:00513689159:1831093001:0313/full/pct:12.5/0/default.jpg#h=1074&w=774",
+    "https://tile.loc.gov/text-services/word-coordinates-service?segment=/service/ndnp/rp/batch_rp_gorgon_ver01/data/sn83021403/00513689159/1831093001/0313.xml&format=alto_xml"
+  ],
+  "original_format": [
+    "newspaper"
+  ],
+  "subjects": [
+    "providence county (r.i.)",
+    "newspapers",
+    "united states",
+    "providence county",
+    "rhode island",
+    "providence (r.i.)",
+    "providence"
+  ],
+  "location": [
+    "rhode island",
+    "providence county",
+    "united states",
+    "providence"
+  ],
+  "timestamp": "2026-02-17T08:35:13.788709"
+}
