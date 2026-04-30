@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}Letter #{{ letter.number }} — {{ letter.recipient }}{% endblock %}
+
+{% block content %}
+<!-- Breadcrumb -->
+<nav aria-label="breadcrumb" class="mb-3">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Letters</a></li>
+    <li class="breadcrumb-item active">Letter #{{ letter.number }}</li>
+  </ol>
+</nav>
+
+<!-- Metadata header -->
+<div class="card shadow-sm mb-4">
+  <div class="card-body">
+    <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+      <div>
+        <h2 class="h4 mb-1">Letter #{{ letter.number }}</h2>
+        <p class="mb-1"><strong>To:</strong> {{ letter.recipient or 'Unknown' }}</p>
+        {% if letter.date_str %}
+          <p class="mb-1"><strong>Date:</strong> {{ letter.date_str }}</p>
+        {% endif %}
+        {% if letter.location %}
+          <p class="mb-1"><strong>Location:</strong> {{ letter.location }}</p>
+        {% endif %}
+      </div>
+      <!-- Quick search within letter -->
+      <form method="get" action="{{ request.path }}" class="d-flex gap-2 align-items-center">
+        <input type="text" name="query" class="form-control form-control-sm"
+               placeholder="Highlight term…" value="{{ query or '' }}" style="width:200px">
+        <button type="submit" class="btn btn-sm btn-outline-secondary">Highlight</button>
+        {% if query %}
+          <a href="{{ request.path }}" class="btn btn-sm btn-outline-secondary">✕</a>
+        {% endif %}
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Letter text -->
+<div class="card shadow-sm mb-4">
+  <div class="card-body">
+    <div class="letter-text" id="letterText">
+      {%- if query -%}
+        {{ letter.content | highlight(query) }}
+      {%- else -%}
+        {{ letter.content }}
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+<!-- Prev / Next navigation -->
+<div class="d-flex justify-content-between mb-4">
+  {% if prev_letter %}
+    <a href="{{ url_for('letter', number=prev_letter.number) }}" class="btn btn-outline-dark">
+      ← Letter #{{ prev_letter.number }}: {{ prev_letter.recipient }}
+    </a>
+  {% else %}
+    <span></span>
+  {% endif %}
+
+  {% if next_letter %}
+    <a href="{{ url_for('letter', number=next_letter.number) }}" class="btn btn-outline-dark">
+      Letter #{{ next_letter.number }}: {{ next_letter.recipient }} →
+    </a>
+  {% endif %}
+</div>
+
+<a href="{{ url_for('index') }}{% if query %}?query={{ query }}{% endif %}" class="btn btn-secondary">
+  ← Back to Letters
+</a>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  const letterNumber = {{ letter.number }};
+  const ta = document.getElementById('noteField');
+  const btn = document.getElementById('saveNoteBtn');
+  const status = document.getElementById('noteStatus');
+
+  function saveNote() {
+    fetch(`/api/note/${letterNumber}`, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({note: ta.value})
+    })
+    .then(r => r.json())
+    .then(() => {
+      status.textContent = 'Saved \u2713';
+      setTimeout(() => status.textContent = '', 2000);
+    })
+    .catch(() => { status.textContent = 'Error saving'; });
+  }
+
+  btn.addEventListener('click', saveNote);
+  ta.addEventListener('keydown', e => {
+    if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') saveNote();
+  });
+})();
+</script>
+{% endblock %}

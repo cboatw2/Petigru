@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Letters by Recipient{% endblock %}
+
+{% block content %}
+<h1 class="section-header">Letters by Recipient</h1>
+
+{% for recipient, letters in grouped.items() %}
+  <div class="mb-4">
+    <h4 class="fw-bold" style="color:#3a2a18;">
+      {{ recipient }}
+      <span class="badge bg-secondary ms-2" style="font-size:0.75rem;">{{ letters|length }}</span>
+    </h4>
+    <div class="row">
+      {% for l in letters %}
+        <div class="col-12 col-sm-6 col-lg-4 mb-2">
+          <div class="card card-sm shadow-sm">
+            <div class="card-body py-2 px-3">
+              <div class="d-flex justify-content-between">
+                <span class="small fw-semibold">Letter #{{ l.number }}</span>
+                {% if l.year %}<span class="badge bg-secondary small">{{ l.year }}</span>{% endif %}
+              </div>
+              {% if l.date_str %}
+                <p class="mb-1 small text-muted">{{ l.date_str }}</p>
+              {% endif %}
+              {% if l.location %}
+                <p class="mb-1 small text-muted"><em>{{ l.location }}</em></p>
+              {% endif %}
+              <a href="{{ url_for('letter', number=l.number) }}" class="btn btn-sm btn-outline-dark mt-1 w-100">
+                Read →
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <hr class="mt-2">
+  </div>
+{% endfor %}
+{% endblock %}

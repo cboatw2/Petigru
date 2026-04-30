@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% block title %}Petigru Letters — Search{% endblock %}
+
+{% block content %}
+<h1 class="section-header">James Louis Petigru — Letters</h1>
+
+<!-- Search & Filter Card -->
+<div class="card mb-4 shadow-sm">
+  <div class="card-body">
+    <form method="get" action="{{ url_for('index') }}">
+      <div class="row g-2 align-items-end">
+
+        <!-- Full-text search -->
+        <div class="col-12 col-md-4">
+          <label class="form-label fw-semibold small text-muted">Search (full text)</label>
+          <input type="text" name="query" class="form-control"
+                 placeholder="Search letters…" value="{{ query or '' }}">
+        </div>
+
+        <!-- Year filter -->
+        <div class="col-6 col-md-3">
+          <label class="form-label fw-semibold small text-muted">Year</label>
+          <select name="year" class="form-select">
+            <option value="">All Years</option>
+            {% for yr in years %}
+              <option value="{{ yr }}" {% if sel_year == yr|string %}selected{% endif %}>{{ yr }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Recipient filter -->
+        <div class="col-6 col-md-3">
+          <label class="form-label fw-semibold small text-muted">Recipient</label>
+          <select name="recipient" class="form-select">
+            <option value="">All Recipients</option>
+            {% for r in recipients %}
+              <option value="{{ r }}" {% if sel_recipient == r %}selected{% endif %}>{{ r }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Buttons -->
+        <div class="col-12 col-md-2 d-flex gap-2">
+          <button type="submit" class="btn btn-primary w-100">Filter</button>
+          {% if query or sel_year or sel_recipient %}
+            <a href="{{ url_for('index') }}" class="btn btn-outline-secondary w-100">Clear</a>
+          {% endif %}
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Result count badge -->
+{% if query or sel_year or sel_recipient %}
+  <div class="alert alert-info py-2 mb-3">
+    <strong>{{ letters|length }}</strong> letter{% if letters|length != 1 %}s{% endif %} found
+    {% if query %} matching <em>"{{ query }}"</em>{% endif %}
+    {% if sel_year %} in <em>{{ sel_year }}</em>{% endif %}
+    {% if sel_recipient %} to <em>{{ sel_recipient }}</em>{% endif %}
+    <span class="text-muted">&nbsp;({{ total }} total)</span>
+  </div>
+{% else %}
+  <p class="text-muted small mb-3">Showing all {{ total }} letters. Use the filters above to narrow results.</p>
+{% endif %}
+
+<!-- Letter cards -->
+<div class="row">
+  {% for l in letters %}
+    <div class="col-12 col-sm-6 col-lg-4 mb-3">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body d-flex flex-column">
+          <div class="d-flex justify-content-between align-items-start mb-2">
+            <span class="badge badge-year">Letter #{{ l.number }}</span>
+            {% if l.year %}
+              <span class="badge bg-secondary">{{ l.year }}</span>
+            {% endif %}
+          </div>
+
+          <h6 class="card-subtitle mb-1 text-dark fw-semibold">
+            To: {{ l.recipient or 'Unknown' }}
+          </h6>
+
+          {% if l.date_str %}
+            <p class="card-text small text-muted mb-1">{{ l.date_str }}</p>
+          {% endif %}
+          {% if l.location %}
+            <p class="card-text small text-muted mb-1">
+              <em>From {{ l.location }}</em>
+            </p>
+          {% endif %}
+
+          <div class="mt-auto pt-2">
+            <a href="{{ url_for('letter', number=l.number, query=query) }}"
+               class="btn btn-sm btn-outline-dark w-100">Read Letter →</a>
+          </div>
+
+          <!-- Notes -->
+          <div class="mt-2">
+            <label class="form-label small text-muted mb-1" style="font-family:sans-serif">Notes</label>
+            <textarea
+              class="form-control form-control-sm note-field"
+              data-letter="{{ l.number }}"
+              rows="2"
+              placeholder="Add a note…"
+              style="font-family:sans-serif;font-size:.8rem;resize:vertical">{{ notes.get(l.number|string, '') }}</textarea>
+            <div class="d-flex justify-content-end align-items-center mt-1 gap-2">
+              <span class="note-status small text-muted" style="font-family:sans-serif"></span>
+              <button class="btn btn-sm btn-outline-secondary save-note-btn py-0 px-2"
+                      data-letter="{{ l.number }}"
+                      style="font-size:.75rem;font-family:sans-serif">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <div class="col-12">
+      <div class="alert alert-warning text-center">No letters match your search.</div>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function saveNote(number, text, statusEl) {
+  fetch(`/api/note/${number}`, {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({note: text})
+  })
+  .then(r => r.json())
+  .then(() => {
+    statusEl.textContent = 'Saved \u2713';
+    setTimeout(() => statusEl.textContent = '', 2000);
+  })
+  .catch(() => { statusEl.textContent = 'Error saving'; });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.save-note-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const num = btn.dataset.letter;
+      const ta = document.querySelector(`.note-field[data-letter="${num}"]`);
+      const statusEl = btn.closest('.d-flex').querySelector('.note-status');
+      saveNote(num, ta.value, statusEl);
+    });
+  });
+
+  // Ctrl/Cmd+Enter to save
+  document.querySelectorAll('.note-field').forEach(ta => {
+    ta.addEventListener('keydown', e => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
+        const num = ta.dataset.letter;
+        const btn = document.querySelector(`.save-note-btn[data-letter="${num}"]`);
+        const statusEl = btn.closest('.d-flex').querySelector('.note-status');
+        saveNote(num, ta.value, statusEl);
+      }
+    });
+  });
+});
+</script>
+{% endblock %}

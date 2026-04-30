@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Letters by Year{% endblock %}
+
+{% block content %}
+<h1 class="section-header">Letters by Year</h1>
+
+<!-- Year jump links -->
+<div class="mb-4 d-flex flex-wrap gap-1">
+  {% for yr in grouped.keys() %}
+    <a href="#year-{{ yr }}" class="btn btn-sm btn-outline-secondary">{{ yr }}</a>
+  {% endfor %}
+</div>
+
+{% for yr, letters in grouped.items() %}
+  <div class="mb-5" id="year-{{ yr }}">
+    <h3 style="color:#6b4f2a;">
+      {{ yr }}
+      <span class="badge bg-secondary ms-2" style="font-size:0.8rem;">{{ letters|length }} letter{% if letters|length != 1 %}s{% endif %}</span>
+    </h3>
+    <div class="row">
+      {% for l in letters %}
+        <div class="col-12 col-sm-6 col-lg-4 mb-2">
+          <div class="card shadow-sm">
+            <div class="card-body py-2 px-3">
+              <p class="mb-1 small fw-semibold">Letter #{{ l.number }}</p>
+              <p class="mb-1 small"><strong>To:</strong> {{ l.recipient or 'Unknown' }}</p>
+              {% if l.date_str %}
+                <p class="mb-1 small text-muted">{{ l.date_str }}</p>
+              {% endif %}
+              {% if l.location %}
+                <p class="mb-1 small text-muted"><em>{{ l.location }}</em></p>
+              {% endif %}
+              <a href="{{ url_for('letter', number=l.number) }}" class="btn btn-sm btn-outline-dark mt-1 w-100">
+                Read →
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <hr class="mt-3">
+  </div>
+{% endfor %}
+{% endblock %}
