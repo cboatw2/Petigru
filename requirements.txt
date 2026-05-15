@@ -5,3 +5,7 @@ MarkupSafe==3.0.2
 click==8.1.8
 blinker==1.9.0
 itsdangerous==2.2.0
+
+# NER / analysis
+spacy>=3.7,<3.8
+matplotlib>=3.7

@@ -47,6 +47,19 @@ This script:
 python3 run_ner.py
 ```
 
+Folder-based NER (PerryLetters-style)
+
+If you want to run NER directly on the per-letter `.txt` files in `letters/` and produce a simple long-form CSV (like the PerryLetters workflow):
+
+```bash
+python3 ner_letters_folder.py --letters-dir letters --output Petigru_NER_entities.csv
+```
+
+Output columns match the PerryLetters NER CSV format:
+- `letter_number`
+- `entity_name`
+- `entity_type` (PERSON or LOCATION)
+
 This script:
 - Uses spaCy's English language model for NER
 - Identifies persons, locations, organizations, and dates
